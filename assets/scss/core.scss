@@ -1,0 +1,35 @@
+$clr-notebook: #FDFAF3;
+
+body {
+    background-color: $clr-notebook;
+    font-family: "Traveling _Typewriter";
+    color: #241A1C;
+
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@import "../fonts/Abeceda.ttf";
+@import "../fonts/TravelingTypewriter.ttf";
+
+.wrapper {
+    display: block;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dialog {
+    width: 50%;
+    height: 50%;
+    border: 4px #241A1C solid;
+    margin: auto;
+    padding: 1rem;
+}
